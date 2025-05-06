@@ -1,0 +1,22 @@
+Terminal Environment Changes
+Extension: GitHub.codespaces
+CODESPACE_VSCODE_FOLDER=/workspaces/Bitcoin-hector-lopez
+Extension: GitHub.copilot-chat
+Enables use of the copilot-debug command in the terminal.
+
+PATH=${env:PATH}:/home/codespace/.vscode-remote/data/User/globalStorage/github.copilot-chat/debugCommand
+Extension: vscode.git
+Enables the following features: git auth provider
+
+GIT_ASKPASS=/vscode/bin/linux-x64/17baf841131aa23349f217ca7c570c76ee87b957/extensions/git/dist/askpass.sh
+VSCODE_GIT_ASKPASS_NODE=/vscode/bin/linux-x64/17baf841131aa23349f217ca7c570c76ee87b957/node
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+VSCODE_GIT_ASKPASS_MAIN=/vscode/bin/linux-x64/17baf841131aa23349f217ca7c570c76ee87b957/extensions/git/dist/askpass-main.js
+VSCODE_GIT_IPC_HANDLE=/tmp/vscode-git-ab2ba70342.sock
+Extension: ms-python.debugpy
+Enables use of no-config debugging, debugpy <script.py>, in the terminal.
+
+PYDEVD_DISABLE_FILE_VALIDATION=1
+VSCODE_DEBUGPY_ADAPTER_ENDPOINTS=/home/codespace/.vscode-remote/extensions/ms-python.debugpy-2025.6.0/.noConfigDebugAdapterEndpoints/endpoint-5d54142803c0113a.txt
+PATH=${env:PATH}:/home/codespace/.vscode-remote/extensions/ms-python.debugpy-2025.6.0/bundled/scripts/noConfigScripts
+BUNDLED_DEBUGPY_PATH=/home/codespace/.vscode-remote/extensions/ms-python.debugpy-2025.6.0/bundled/libs/debugpy
