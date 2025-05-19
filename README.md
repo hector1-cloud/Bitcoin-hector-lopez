@@ -10,6 +10,6 @@
 
 5 + git branch -M main
 
-6 + git remote add origin https://github.com /hector1-cloud/Bitcoin-hector-lopez.git
+6 + git remote add origin https://github.com/hector1-cloud/Bitcoin-hector-lopez.git
 
 7+ git push u origin main
