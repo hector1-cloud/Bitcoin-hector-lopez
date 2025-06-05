@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "url": "stratum+tcp://stratum.pool.bitcoin.com:3333",
+      "user": "hector1-cloud",
+      "pass": "@Dominic71018"
+    }
+  ],
+  "api-listen": true,
+  "api-allow": "W:127.0.0.1",
+  "scan-time": 60,
+  "queue": 0,
+  "expiry": 120,
+  "failover-only": true,
+  "log": "5",
+  "log-file": "miner.log",
+  "no-pool-disable": true,
+  "gpu-platform": 0
+}
